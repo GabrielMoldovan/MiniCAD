@@ -1,0 +1,18 @@
+Pe prima linie se va găsi un număr natural N, reprezentând numărul total de forme ce se vor afla în desen.
+Următoarele N linii vor conține informații despre fiecare dintre cele N forme: poziția unei forme, dimensiunile și culoarea acesteia.
+
+CANVAS <înălțime> <lățime> #RGB A
+
+LINE <coordonata x de start> <coordonata y de start> <coordonata x de final> <coordonata y de final> #RGB A
+
+SQUARE <coordonata x a coltului stanga sus> <coordonata y a coltului stanga sus> <dimensiunea unei laturi> #RGB A #RGB A
+
+RECTANGLE <coordonata x a coltului stanga sus> <coordonata y a coltului stanga sus> <dimensiunea înălțimii> <dimensiunea lungimii> #RGB A #RGB A
+
+CIRCLE <coordonata x a centrului> <coordonata y a centrului> <raza> #RGB A #RGB A
+
+TRIANGLE <coordonata x a primului punct> <coordonata y a primului punct> <coordonata x a celui de-al doilea punct> <coordonata y a celui de-al doilea punct> <coordonata x a celui de-al treilea punct> <coordonata y a celui de-al treilea punct> #RGB A #RGB A
+
+DIAMOND <coordonata x a centrului> <coordonata y a centrului> <dimensiunea diagonalei orizontale> <dimensiunea diagonalei verticale> #RGB A #RGB A
+
+POLYGON <numarul de puncte> (numarul de puncte) * (<coordonata x a unui punct> <coordonata y a unui punct>) #RGB A #RGB A
